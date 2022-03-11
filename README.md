@@ -1,3 +1,7 @@
+## GRBLHAL2000 PrintNC repo
+
+This branch has some minor edits for the PrintNC so that the updated spindle plugin will work.  To do is to add updates to the I2C keypad plugin for 2-way support.
+
 ## iMXRT1062 Driver
 
 A grblHAL driver for the NXP iMXRT1062 processor on a [Teensy 4.x board](https://www.pjrc.com/store/teensy40.html).
