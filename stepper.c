@@ -29,7 +29,7 @@
 #include "protocol.h"
 #include "state_machine.h"
 
-//#define MINIMIZE_PROBE_OVERSHOOT
+#define MINIMIZE_PROBE_OVERSHOOT
 
 //#include "debug.h"
 

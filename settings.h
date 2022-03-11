@@ -255,6 +255,8 @@ typedef enum {
     Setting_DoorSpindleOnDelay = 392,
     Setting_DoorCoolantOnDelay = 393,
     Setting_SpindleOnDelay = 394, // made available if safety door input not provided
+    Setting_VFD_TYPE = 395, // Select from available VFD types
+    Setting_VFD_RPM_HZ = 396, // Set RPM/Hz (not used by all VFD types)
 
     Setting_EncoderSettingsBase = 400, // NOTE: Reserving settings values >= 400 for encoder settings. Up to 449.
     Setting_EncoderSettingsMax = 449,
