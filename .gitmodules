@@ -16,6 +16,7 @@
 [submodule "grblHAL_Teensy4/src/spindle"]
 	path = grblHAL_Teensy4/src/spindle
 	url = https://github.com/Expatria-Technologies/Plugins_spindle/
+	branch = vfd_support
 [submodule "grblHAL_Teensy4/src/odometer"]
 	path = grblHAL_Teensy4/src/odometer
 	url = https://github.com/grblHAL/Plugin_odometer
