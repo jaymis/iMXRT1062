@@ -41,3 +41,6 @@
 [submodule "grblHAL_Teensy4/src/webui"]
 	path = grblHAL_Teensy4/src/webui
 	url = https://github.com/grblHAL/Plugin_WebUI
+[submodule "grblHAL_Teensy4/src/rgb"]
+	path = grblHAL_Teensy4/src/rgb
+	url = https://github.com/Expatria-Technologies/grblhal-rgb-plugin

@@ -81,6 +81,8 @@ N_AXIS has a default value of 3, edit grbl\config.h to increase.
 //#define ESTOP_ENABLE        0 // When enabled only real-time report requests will be executed when the reset pin is asserted.
                                 // Note: if left commented out the default setting is determined from COMPATIBILITY_LEVEL.
 
+#define RGB_ENABLE          1 // RGB Status Light Plugin, uses three aux outs to provide visual status via RGB LED light strip
+
 #define SPINDLE_RPM_CONTROLLED 1                                
 
 // If the selected board map supports more than three motors ganging and/or auto-squaring
