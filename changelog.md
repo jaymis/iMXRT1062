@@ -1,5 +1,41 @@
 ## grblHAL changelog
 
+20220325:
+
+Core:
+
+* Changed spindle handling to allow dynamic spindle registration and support for multiple spindles selectable at run-time.  
+If more than one spindle is to be made available [grbl/config.h](https://github.com/grblHAL/core/blob/master/config.h) has to be edited and the symbol `N_SPINDLE` has to be increased from the default value of 1 to the number of spindles to allow \(currently max 8\).  
+When more than one spindle is registered setting `$395` becomes available for specifying the spindle to enable at startup. Use `$$=395` to output a list of available spindles and the corresponding spindle id to use for configuration.  
+__NOTE:__ Using `$32` for switching between a PWM spindle and a VFD spindle is no longer supported, either use `$395` or `M104P0` to select the PWM spindle, `M104P1` to select the configured VFD spindle.
+Note that laser mode \(`$32=1`\) will be disabled if the active spindle is not a PWM spindle.   
+__NOTE:__ the change is not backwards compatible with current 3rd party drivers, these has to be updated to match the changed core.
+
+Plugins:
+
+* The PPI and spindle plugins has been updated for the new spindle handling. 
+
+Drivers:
+
+* All: updated for the new spindle handling.  
+__NOTE:__ I have only done limited testing of the changes, please report any problems!
+
+---
+
+20220315:
+
+Drivers:
+
+* LPC176x: Fix for issue #122, polling of limit switches during homing.
+
+* SAM3X8E: Fix for issue #124, limit signals inversion did not work.
+
+* RP2040: [Fixed typo](https://github.com/grblHAL/RP2040/issues/16#issuecomment-1058560536) in enable/disable of secondary UART port.  
+Fixed incorrect check for UART TX shift register empty and handling of stepper enable when Trinamic drivers are enabled.  
+Updated BTT SKR Pico map - may still need adjustments...
+
+---
+
 Build 20220215:
 
 Core:
