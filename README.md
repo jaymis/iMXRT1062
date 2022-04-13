@@ -1,6 +1,6 @@
 ## GRBLHAL2000 PrintNC repo
 
-This branch has some minor edits for the PrintNC so that the updated spindle plugin will work.  To do is to add updates to the I2C keypad plugin for 2-way support.
+This branch has some minor edits for the PrintNC EST project.  It adds the updated VFD spindle plugin, the 2-way I2C jogger plugin and the RGB plugin.
 
 ## iMXRT1062 Driver
 
