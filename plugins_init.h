@@ -36,7 +36,7 @@
 #if VFD_ENABLE
 #if VFD_ENABLE == 1 || VFD_ENABLE == 2 || VFD_ENABLE == -1
     extern void vfd_huanyang_init (void);
-    vfd_huanyang_init();
+    vfd_init();
 #endif
 #if N_SPINDLE > 1
     extern void spindle_select_init(void);
