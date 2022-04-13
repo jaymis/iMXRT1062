@@ -27,7 +27,7 @@
 /*! \brief Total size in bytes of the NVS.
 Minimum 1024 bytes required, more if space for driver and/or plugin data and settings is required.
 */
-#define NVS_SIZE 2048
+#define NVS_SIZE 4096
 #endif
 
 /*! \brief Number of bytes at the start of the NVS area reserved for core settings and parameters.

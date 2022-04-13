@@ -81,6 +81,11 @@
 
 #endif
 
+#if RGB_ENABLE
+    extern void rgb_init (void);
+    rgb_init();
+#endif
+
     my_plugin_init();
 
 // Third party plugin definitions.

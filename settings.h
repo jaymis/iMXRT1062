@@ -256,8 +256,6 @@ typedef enum {
     Setting_DoorCoolantOnDelay = 393,
     Setting_SpindleOnDelay = 394, // made available if safety door input not provided
     Setting_SpindleType = 395,
-    Setting_VFD_TYPE = 395, // Select from available VFD types
-    Setting_VFD_RPM_HZ = 396, // Set RPM/Hz (not used by all VFD types)
 
     Setting_EncoderSettingsBase = 400, // NOTE: Reserving settings values >= 400 for encoder settings. Up to 449.
     Setting_EncoderSettingsMax = 449,
@@ -273,6 +271,24 @@ typedef enum {
     Setting_UserDefined_7 = 457,
     Setting_UserDefined_8 = 458,
     Setting_UserDefined_9 = 459,
+
+    //currently below are used to hold the MODVFD register settings  Maybe find a better place for them?
+    #ifdef VFD_ENABLE
+    Setting_VFD_TYPE = 460, // Select from available VFD types
+    Setting_VFD_RPM_HZ = 461, // Set RPM/Hz (not used by all VFD types)
+    Setting_VFD_PLUGIN_10 = 462,
+    Setting_VFD_PLUGIN_11 = 463,
+    Setting_VFD_PLUGIN_12 = 464,
+    Setting_VFD_PLUGIN_13 = 465,
+    Setting_VFD_PLUGIN_14 = 466,
+    Setting_VFD_PLUGIN_15 = 467,
+    Setting_VFD_PLUGIN_16 = 468,
+    Setting_VFD_PLUGIN_17 = 469,
+    Setting_VFD_PLUGIN_18 = 470,
+    Setting_VFD_PLUGIN_19 = 471,
+    Setting_VFD_PLUGIN_20 = 472,
+    Setting_VFD_PLUGIN_21 = 473,         
+    #endif
 
     Setting_SettingsMax,
     Setting_SettingsAll = Setting_SettingsMax,

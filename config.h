@@ -43,7 +43,7 @@ If more than 3 axes are configured a compliant driver and map file is needed.
 #ifndef N_SPINDLE
 /*! Defines number of spindles supported - minimum 1, maximum 8
 */
-#define N_SPINDLE 1
+#define N_SPINDLE 2
 #endif
 
 #ifndef COMPATIBILITY_LEVEL

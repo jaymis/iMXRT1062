@@ -110,10 +110,6 @@ typedef struct {
 typedef struct {
     uint32_t baud_rate;
     uint32_t rx_timeout;
-#ifdef VFD_ENABLE    
-    uint32_t vfd_type;
-    uint32_t vfd_rpm_hz;
-#endif
 } modbus_settings_t;
 
 // Quadrature encoder interface
