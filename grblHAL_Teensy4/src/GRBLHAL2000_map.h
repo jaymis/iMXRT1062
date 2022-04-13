@@ -123,6 +123,7 @@
 #define AUXOUTPUT0_PIN      (37u)
 #define AUXOUTPUT1_PIN      (32u)
 #define AUXOUTPUT2_PIN      (33u)
+#define AUXOUTPUT3_PIN      (38u)
 //#define AUX_N_OUT 3
 //#define AUX_OUT_MASK 0b111
 
