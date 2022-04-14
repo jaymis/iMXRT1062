@@ -6,7 +6,8 @@
 	url = https://github.com/grblHAL/Plugin_EEPROM
 [submodule "grblHAL_Teensy4/src/keypad"]
 	path = grblHAL_Teensy4/src/keypad
-	url = https://github.com/grblHAL/Plugin_I2C_keypad
+	url = https://github.com/Expatria-Technologies/Plugin_I2C_keypad
+	branch = Interactive_Jog
 [submodule "grblHAL_Teensy4/src/networking"]
 	path = grblHAL_Teensy4/src/networking
 	url = https://github.com/grblHAL/Plugin_networking
