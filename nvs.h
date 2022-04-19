@@ -33,7 +33,7 @@ Minimum 1024 bytes required, more if space for driver and/or plugin data and set
 /*! \brief Number of bytes at the start of the NVS area reserved for core settings and parameters.
 Minimum 1024 bytes required.
 */
-#define GRBL_NVS_END 1023
+#define GRBL_NVS_END 2047
 
 //! Number of bytes used for storing CRC values. Do not change this!
 #define NVS_CRC_BYTES 1
