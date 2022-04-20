@@ -8,6 +8,8 @@ https://github.com/Expatria-Technologies/Plugin_I2C_keypad
 
 https://github.com/Expatria-Technologies/grblhal-rgb-plugin
 
+In addition, there are some optimizations in the core config to enable a deeper look-ahead buffer as well as enable the improved probing and backlash compensation.
+
 ## iMXRT1062 Driver
 
 A grblHAL driver for the NXP iMXRT1062 processor on a [Teensy 4.x board](https://www.pjrc.com/store/teensy40.html).
