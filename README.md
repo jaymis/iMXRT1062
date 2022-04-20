@@ -1,8 +1,11 @@
 ## GRBLHAL2000 PrintNC repo
 
 This branch has some minor edits for the PrintNC EST project.  It adds the updated VFD spindle plugin, the 2-way I2C jogger plugin and the RGB plugin:
+
 https://github.com/Expatria-Technologies/Plugins_spindle
+
 https://github.com/Expatria-Technologies/Plugin_I2C_keypad
+
 https://github.com/Expatria-Technologies/grblhal-rgb-plugin
 
 ## iMXRT1062 Driver
