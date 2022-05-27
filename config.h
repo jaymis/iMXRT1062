@@ -414,7 +414,7 @@ __NOTE:__ these definitions are only referenced in this file. Do __NOT__ change!
 // normally-open (NO) switches on the specified pins, rather than the default normally-closed (NC) switches.
 // NOTE: The first option will invert all control pins. The second option is an example of
 // inverting only a few pins. See the start of this file for other signal definitions.
-// #define INVERT_CONTROL_PIN_MASK SIGNALS_BITMASK // Default disabled. Uncomment to enable.
+#define INVERT_CONTROL_PIN_MASK SIGNALS_BITMASK // Default disabled. Uncomment to enable.
 // #define INVERT_CONTROL_PIN_MASK (SIGNALS_SAFETYDOOR_BIT|SIGNALS_RESET_BIT) // Default disabled. Uncomment to enable.
 // #define INVERT_LIMIT_BIT_MASK AXES_BITMASK // Default disabled. Uncomment to enable. Uncomment to enable.
 // #define INVERT_LIMIT_BIT_MASK (X_AXIS_BIT|Y_AXIS_BIT) // Default disabled. Uncomment to enable.
